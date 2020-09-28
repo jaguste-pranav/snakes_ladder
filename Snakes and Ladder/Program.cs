@@ -6,8 +6,10 @@ namespace Snakes_and_Ladder
     {
         static void Main(string[] args)
         {
-            int currentPosition = 0;
-            Console.WriteLine("Starting position of player is " + currentPosition);
+            Random rand = new Random();
+            int diceRoll = rand.Next(1, 7);
+
+            Console.WriteLine("The number on dice's face is " + diceRoll);
         }
     }
 }
