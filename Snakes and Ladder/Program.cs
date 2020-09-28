@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Runtime.InteropServices;
 
 namespace Snakes_and_Ladder
 {
@@ -25,47 +26,57 @@ namespace Snakes_and_Ladder
 
         static void Main(string[] args)
         {
-            int currentPosition = 50;
+            int currentPosition = 0;
             int SNAKE = 0;
             int NO_PLAY = 1;
             int LADDER = 2;
+            int diceCounter = 0;
 
-            int dice = diceRoll();
-            int option = optionRoll();
-
-            if (option == SNAKE)
+            while (currentPosition <= 100)
+            //for (int i = 0; i < 500; i++)
             {
-                if (currentPosition - dice >= 0)
-                {
-                    currentPosition = currentPosition - dice;
-                }
-                else
-                {
-                    currentPosition = 0;
-                }
-            }
+                diceCounter++;
+                int dice = diceRoll();
+                int option = optionRoll();
 
-            if (option == NO_PLAY)
-            {
-                currentPosition = currentPosition + 0;
-            }
-
-            if (option == LADDER)
-            {
-                if (currentPosition + dice < 100)
+                if (option == SNAKE)
                 {
-                    currentPosition = currentPosition + dice;
+                    if (currentPosition - dice >= 0)
+                    {
+                        currentPosition = currentPosition - dice;
+                    }
+                    else
+                    {
+                        currentPosition = 0;
+                    }
                 }
-                else if (currentPosition + dice > 100)
+
+                if (option == NO_PLAY)
                 {
                     currentPosition = currentPosition + 0;
                 }
-                else
+
+                if (option == LADDER)
                 {
-                    currentPosition = currentPosition + dice;
+                    if (currentPosition + dice < 100)
+                    {
+                        currentPosition = currentPosition + dice;
+                    }
+
+                    else if (currentPosition + dice > 100)
+                    {
+                        currentPosition = currentPosition + 0;
+                    }
+                    else
+                    {
+                        currentPosition = currentPosition + dice;
+                        break;
+                    }
                 }
+                Console.WriteLine("The final position is " + currentPosition);
+                Console.WriteLine("");
             }
-            Console.WriteLine("The final position is " + currentPosition);
+            Console.WriteLine("The dice was rolled " + diceCounter + " number of times");
         }
     }
 }
