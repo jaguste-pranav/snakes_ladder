@@ -1,0 +1,13 @@
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\bin\Debug\netcoreapp3.1\Snakes and Ladder.exe
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\bin\Debug\netcoreapp3.1\Snakes and Ladder.deps.json
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\bin\Debug\netcoreapp3.1\Snakes and Ladder.runtimeconfig.json
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\bin\Debug\netcoreapp3.1\Snakes and Ladder.runtimeconfig.dev.json
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\bin\Debug\netcoreapp3.1\Snakes and Ladder.dll
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\bin\Debug\netcoreapp3.1\Snakes and Ladder.pdb
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\obj\Debug\netcoreapp3.1\Snakes and Ladder.csprojAssemblyReference.cache
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\obj\Debug\netcoreapp3.1\Snakes and Ladder.AssemblyInfoInputs.cache
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\obj\Debug\netcoreapp3.1\Snakes and Ladder.AssemblyInfo.cs
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\obj\Debug\netcoreapp3.1\Snakes and Ladder.csproj.CoreCompileInputs.cache
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\obj\Debug\netcoreapp3.1\Snakes and Ladder.dll
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\obj\Debug\netcoreapp3.1\Snakes and Ladder.pdb
+C:\Users\Pranav V Jaguste\source\repos\Snakes and Ladder\Snakes and Ladder\obj\Debug\netcoreapp3.1\Snakes and Ladder.genruntimeconfig.cache
